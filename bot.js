@@ -4,7 +4,7 @@ const bot = new Discord.Client()
 var profanities = require("profanities");
 
 // Login
-client.login(process.env.BOT_TOKEN);
+bot.login(process.env.BOT_TOKEN);
 
 // Listening
 bot.on("message", message =>
