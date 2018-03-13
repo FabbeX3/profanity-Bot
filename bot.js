@@ -15,7 +15,7 @@ bot.on("message", message =>
     var msg = message.content.toUpperCase();
     var prefix = "!";
 
-    if(sender.id === "422841374769938433")
+    if(sender.id === "423144674199470083")
     {
         return;
     }
@@ -24,7 +24,7 @@ bot.on("message", message =>
       {
           const embed =  new Discord.RichEmbed()
           .setTitle("Warning!!!")
-          .setAuthor("Profanity Bot")
+          .setAuthor("Profanity Bot AO")
           .setColor(16711680)
           .addField(`@${message.author.username} said something suspicious in: #${message.channel.name}`, `The message was: ${message.content}`)
           .setTimestamp()
